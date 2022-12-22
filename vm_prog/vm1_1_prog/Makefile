@@ -26,7 +26,7 @@ SRC_DIR = ./src_vm1_1
 #
 #  追加のインクルードディレクトリ
 #
-INCLUDES := -I$(TOP_DIR)/hypervisor/obj/obj_2pe
+INCLUDES := -I$(TOP_DIR)/hypervisor/obj/${HV_OBJ}
 
 #
 #  ターゲット毎の定義の使用

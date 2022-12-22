@@ -26,7 +26,7 @@ SRC_DIR = ./src_vm0_1
 #
 #  追加のインクルードディレクトリ
 #
-INCLUDES := -I$(TOP_DIR)/hypervisor/obj/obj_1pe
+INCLUDES := -I$(TOP_DIR)/hypervisor/obj/$(HV_OBJ)
 
 #
 #  リンカスクリプト
