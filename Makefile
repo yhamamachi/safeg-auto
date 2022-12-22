@@ -60,7 +60,7 @@ vm:
 endif
 
 ifeq ($(HV_OBJ),obj_1pe_atk2)
-vm:
+vm: depend
 	make -C ./vm_atk2/vm1_atk2
 	make -C ./vm_atk2/vm2_atk2
 
@@ -70,7 +70,7 @@ depend:
 endif
 
 ifeq ($(HV_OBJ),obj_2pe_atk2)
-vm:
+vm: depend
 	make -C ./vm_atk2/vm1_atk2
 	make -C ./vm_atk2/vm2_atk2
 	make -C ./vm_atk2/vm3_atk2
