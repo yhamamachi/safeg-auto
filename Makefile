@@ -1,13 +1,13 @@
-MODE = normal
-#MODE = perf
+MODE ?= normal
+#MODE ?= perf
 
-HV_OBJ = obj_1pe
-#HV_OBJ = obj_2pe
-#HV_OBJ = obj_2pe_mvm
-#HV_OBJ = obj_2pe_svm
-#HV_OBJ = obj_1pe_com
-#HV_OBJ = obj_1pe_atk2
-#HV_OBJ = obj_2pe_atk2
+HV_OBJ ?= obj_1pe
+#HV_OBJ ?= obj_2pe
+#HV_OBJ ?= obj_2pe_mvm
+#HV_OBJ ?= obj_2pe_svm
+#HV_OBJ ?= obj_1pe_com
+#HV_OBJ ?= obj_1pe_atk2
+#HV_OBJ ?= obj_2pe_atk2
 
 all: hv vm
 
