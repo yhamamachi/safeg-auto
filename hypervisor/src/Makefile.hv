@@ -218,7 +218,7 @@ endif
 #  オブジェクトフォルダの生成
 #
 ifeq ($(UNAME), Windows)
-	MKOBJDIR_P =  if not exist $(OBJDIR) ( mkdir $(OBJDIR))
+	MKOBJDIR_P = cmd.exe /c "if not exist $(OBJDIR) ( mkdir $(OBJDIR))"
 else
 	MKOBJDIR_P = @[ -d $(OBJDIR) ] || mkdir -p $(OBJDIR)
 endif
