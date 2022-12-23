@@ -152,7 +152,7 @@ $(COBJS): $(OBJDIR)/%.o: %.c
 	$(CC) -c -o$@ $(CFLAGS) $<
 
 compiler_clean:
-	rm -f $(TARGET_NAME).map
+	rm -f $(TARGET_NAME).map $(TARGET_NAME).srec
 
 endif
 

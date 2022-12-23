@@ -99,5 +99,6 @@ atk2clean: $(ATK2PROGLIST)
 
 $(ATK2PROGLIST):
 	make clean -C $@
+	make cleandep -C $@
 
 .PHONY: $(VMPROGLIST) $(ATK2PROGLIST)

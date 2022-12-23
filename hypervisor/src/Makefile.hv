@@ -178,7 +178,7 @@ $(COBJS:$(OBJDIR)/%.o=%.asm): %.asm: %.c
 	$(CC) -S $(CFLAGS) $<
 
 compiler_clean:
-	rm -f $(TARGET_NAME).map
+	rm -f $(TARGET_NAME).map $(TARGET_NAME).srec
 
 #
 #  コンフィギュレータのコンパイルオプション
