@@ -189,6 +189,16 @@ make
 
 を実行してビルドする．
 
+## ビルド方法 Powershell on Windows
+
+(初回のみ)`_allow_powershell_script.bat`を実行する。(Powershellでのscriptの実行に必要)
+
+Powershellから`setup-powershell.ps1`を実行し、Pathを設定する(初回のみ必要なパッケージのインストールも実行される)。
+
+make
+
+を実行してビルドする。
+
 # 実行
 
 ハイパーバイザディレクトリにあるCS+のプロジェクトをCS＋で開いてダウンロードして実行する．
